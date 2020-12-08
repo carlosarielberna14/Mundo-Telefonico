@@ -1,0 +1,127 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.contenedor-seccion{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+.fw-300{
+    font-size: 3.4rem;
+    font-weight: 300;
+    color: teal;
+}
+.fw-3000{
+    font-size: 2rem;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+.parrafo{
+    color:white;
+    text-align: center;
+    padding-right: 14rem;
+    margin-left: 20rem;
+    margin-right: 7rem;
+}
+.parrafo1{
+    color:white;
+    text-align: center;
+}
+.parrafo2{
+    color:white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+.centrar-texto{
+    text-align: center;
+}
+
+.site-header.inicio{
+    background-color: rgb(241, 235, 235);
+    height: 15vh;
+}
+
+.contenedor{
+    max-width: 1200px;
+}
+.contenedor-seccion{
+    padding-top: 3rem;
+}
+      
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding-top: 3rem;
+}
+.barra-img{
+    padding-top: -3rem;
+    margin-left: 15rem;
+}
+.barra img{
+    margin-top: -45px;
+    width: 120px;
+    height: 120px;
+}
+
+.navegacion a{
+    color: #9c9797;
+    text-decoration: none;
+    font-size: 18px;
+    position:left;
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navegacion a:hover{
+    color: #71b100;
+}
+.navegacion a:last-of-type{
+    margin: 0;
+}
+/* Iconos nosotros*/
+.iconos-nosotros{
+    display: inline-flex;
+    margin-left: 20rem;
+    justify-content: space-between;
+}
+.icono{
+    flex-basis: calc(33.33% - 30rem);
+    text-align: center;
+}
+
+
+/* BOTONES*/
+.boton{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.fondo{
+    margin-top: -2rem;
+    background-color: rgb(104, 104, 104);
+    display: flex;
+    align-items: center;
+}
+.fondo p{
+    color:white;
+    text-align: center;
+    margin-left: 45rem;
+}
